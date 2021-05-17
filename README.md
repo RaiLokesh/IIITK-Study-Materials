@@ -1,4 +1,4 @@
-<img src="https://github.com/RaiLokesh/IIITK-Study-Materials/blob/master/public/logo.png?raw=true" height="115" width="150"></img><b><h1>IIITK Study Materials</h1></b>
+<img src="https://github.com/RaiLokesh/IIITK-Study-Materials/blob/master/public/logo.png?raw=true" height="150" width="150"></img><b><h1>IIITK Study Materials</h1></b>
 <br><br>
 Hey everyone,
 <br><br>
