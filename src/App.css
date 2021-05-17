@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,116 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main1{
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+}
+
+hr{
+  color: transparent;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: aqua;
+  
+}
+
+.fileupload{
+  font-size: 25px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align:end;
+  right:100px;
+  position: absolute;
+  color: #00FF00;
+  top:20%
+}
+.folderupload{
+  background-color: transparent;
+  color: #ffff3d;
+  border: transparent;
+  font-size: 25px;
+  padding-right: 50px;
+  padding-top: 10px;
+  text-align:end;
+  right:30px;
+  position: absolute;
+  top: 19.5%;
+}
+
+a{
+  color: aqua;
+  text-decoration: none;
+}
+
+
+ .f1{
+    padding: 10px 16px;
+    list-style: none;
+    text-align: center;
+  }
+  .f1 li {
+    display: inline;
+    font-size: 18px;
+  }
+  .f1 li+li:before {
+    padding: 8px;
+    color: aqua;
+    content: "/\00a0";
+  }
+  .f1 li a {
+    color: greenyellow;
+    text-decoration: none;
+  }
+  
+
+.nameit{
+  padding-left: 25px;
+  padding-right: 25px;
+  background-size: 250px;
+  font-family: 'Poppins', sans-serif;
+}
+.faf{
+  opacity: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.mr-2{
+  padding-right: 15px;
+}
+
+.divm{
+  position:absolute;
+  top:35%;
+}
+
+.btn1{
+  font-family: 'Poppins', sans-serif;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 50px;
+  background-color: transparent;
+  border: unset;
+  color: #61dafb;
+  
+}
+.filed{
+  padding-left: 10%;
+  padding-top: 10px;
+  top: 40%;
+}
+.formfolder{
+  position: absolute;
+  left: 70%;
+  
+}
+
+.title{
+  padding-left: 20px;
+  font-family: 'Reggae One', cursive;
 }
