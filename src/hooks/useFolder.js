@@ -78,7 +78,8 @@ function reducer(state, { type, payload }) {
       useEffect(() => {
         return database.folders
           .where("parentId", "==", folderId)
-          //.orderBy("createdAt")
+          // .orderBy(folder.name)
+          
           .onSnapshot(snapshot => {
             dispatch({
               type: ACTIONS.SET_CHILD_FOLDERS,

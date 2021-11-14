@@ -1,13 +1,12 @@
 import React from "react"
-import { Navbar, Nav } from "react-bootstrap"
-import { Link } from "react-router-dom"
+import { Navbar } from "react-bootstrap"
 
 
 export default function NavbarComponent() {
   return (
     <Navbar bg="light" expand="sm">
       <div className="main1">
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand>
           <h1 className="title">IIIT Kottayam Study Materials</h1>
         </Navbar.Brand>
       </div>

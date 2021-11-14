@@ -13,21 +13,24 @@ export default function Dashboard() {
     const { folderId } = useParams()
     const { state = {} } = useLocation()
     const { folder, childFolders, childFiles } = useFolder(folderId, state.folder)
-    //console.log(useFolder(folderId, state.folder))
-    //console.log(childFiles)
-    //console.log(childFolders)
-    //console.log(folder)
+    childFolders.sort((a ,b)=> a.name>b.name?1:-1)
     return (
       <>
         <Navbar />
         <Container fluid>
-          <div>
+          <div >
+            
             <FolderBreadcrumbs currentFolder={folder} />
-            <AddFileButton currentFolder={folder} />
+            
+          </div>
+          <div >
+            <AddFileButton currentFolder={folder}/>
             <AddFolderButton currentFolder={folder} />
           </div>
           <div >
+          
           {childFolders.length > 0 && (
+            
             <div >
               {childFolders.map(childFolder => (
                 <div className="filed"

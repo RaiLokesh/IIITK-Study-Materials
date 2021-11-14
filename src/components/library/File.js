@@ -12,6 +12,7 @@ export default function File({ file }) {
     >
       <FontAwesomeIcon icon={faFile} className="mr-2" />
       {file.name}
+      
     </a>
     </div>
   )
